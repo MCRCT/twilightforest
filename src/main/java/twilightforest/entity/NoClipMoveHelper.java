@@ -19,6 +19,7 @@ public class NoClipMoveHelper extends MoveControl {
 	public void tick() {
 		if (this.operation == MoveControl.Operation.MOVE_TO) {
 			if (this.parentEntity instanceof UrGhast urGhast) {
+				// based of the code in CarminiteGhastguard.AIHomedFly.start()
 				double dx = this.getWantedX() - urGhast.getX() + (urGhast.getRandom().nextFloat() * 2.0F - 1.0F) * urGhast.getWanderFactor();
 				double dy = this.getWantedY() - urGhast.getY() + (urGhast.getRandom().nextFloat() * 2.0F - 1.0F) * urGhast.getWanderFactor();
 				double dz = this.getWantedZ() - urGhast.getZ() + (urGhast.getRandom().nextFloat() * 2.0F - 1.0F) * urGhast.getWanderFactor();
