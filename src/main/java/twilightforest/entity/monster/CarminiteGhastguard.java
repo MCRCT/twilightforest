@@ -408,5 +408,10 @@ public class CarminiteGhastguard extends Ghast {
 		return this.maximumHomeDistance != -1.0F;
 	}
 	// End copy
+
+
+	public float getWanderFactor() {
+		return this.wanderFactor;
+	}
 }
 

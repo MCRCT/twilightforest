@@ -143,8 +143,6 @@ public class UrGhast extends CarminiteGhastguard {
 					}
 				}
 
-				// TODO reintrodue wanderFactor somehow? Would need to change move helper or add extra fields here
-
 				double x = pointsToVisit.get(currentPoint).getX();
 				double y = pointsToVisit.get(currentPoint).getY() + HOVER_ALTITUDE;
 				double z = pointsToVisit.get(currentPoint).getZ();

@@ -1,17 +1,17 @@
 modLoader="javafml" #mandatory
 loaderVersion="[40,)"
-issueTrackerURL="https://github.com/TeamTwilight/twilightforest/issues" #optional
+issueTrackerURL="https://github.com/TeamTwilight/twilightforest/issues"
 license="GNU LESSER GENERAL PUBLIC LICENSE Version 2.1"
 
 [[mods]]
 modId="twilightforest"
 version="${version}"
 displayName="The Twilight Forest"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest" #optional
-updateJSONURL="https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.17.x/update.json"
-logoFile="twilightforest_logo.png" #optional
-credits="By Benimatic (Ben Mazur)" #optional
-authors="Benimatic, AtomicBlom, Drullkus, Killer_Demon, quadraxis, Tamaized, williewillus, Andromander, GizmoTheMoonPig" #optional
+displayURL="https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest"
+updateJSONURL="https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.18.x/update.json"
+logoFile="twilightforest_logo.png"
+credits="By Benimatic (Ben Mazur)"
+authors="Benimatic, AtomicBlom, Drullkus, Killer_Demon, quadraxis, Tamaized, williewillus, Andromander, GizmoTheMoonPig"
 description='''
 An enchanted forest dimension.
 '''
@@ -19,6 +19,64 @@ An enchanted forest dimension.
 [[dependencies.twilightforest]]
     modId="forge"
     mandatory=true
-    versionRange="[40.0.2,)"
+    versionRange="[40.1.16,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.twilightforest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2, 1.19)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.twilightforest]]
+    modId="jei"
+    mandatory=false
+    versionRange="[9.7.0.194,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.twilightforest]]
+    modId="ctm"
+    mandatory=false
+    versionRange="[1.18.2-1.1.4+4,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.twilightforest]]
+    modId="tconstruct"
+    mandatory=false
+    versionRange="[3.5.0.17,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.twilightforest]]
+    modId="immersiveengineering"
+    mandatory=false
+    versionRange="[1.18.2-8.0.0-146,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.twilightforest]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[1.18.2-67,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.twilightforest]]
+    modId="curios"
+    mandatory=false
+    versionRange="[1.18.2-5.0.6.3,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.twilightforest]]
+    modId="undergarden"
+    mandatory=false
+    versionRange="[0.7.0,)"
     ordering="NONE"
     side="BOTH"
